@@ -2,11 +2,11 @@
 
 ## About
 
-This repository holds the code behind my Jekyll-powered blog available at [zkosanovic.github.io](https://zkosanovic.github.io).
+**This project is currently work in progress.**
 
-This is a fork of the [startbootstrap-clean-blog-jekyll](https://github.com/BlackrockDigital/startbootstrap-clean-blog-jekyll) project.
+This repository holds the code behind my Jekyll-powered blog available at [zdravko.dev](https://zdravko.dev).
 
-**This repository is currently work in progress.**
+It is based on [clean-blog-jekyll](https://github.com/BlackrockDigital/startbootstrap-clean-blog-jekyll) project. 
 
 ## License
 
