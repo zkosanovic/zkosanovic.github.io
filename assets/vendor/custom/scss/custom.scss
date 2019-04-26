@@ -32,7 +32,7 @@
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
   > i {
-    color: #fff;
+    color: $white;
     margin: 0;
     position: relative;
     left: 16px;
@@ -43,13 +43,5 @@
     -ms-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
-  }
-  &:hover {
-    background: $black;
-    opacity: 0.9;
-    > i {
-      color: $white;
-      top: 5px;
-    }
   }
 }
