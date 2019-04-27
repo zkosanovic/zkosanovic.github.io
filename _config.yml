@@ -6,6 +6,7 @@ baseurl:           "/"
 url:               "https://zkosanovic.github.io"
 
 # Social Profiles
+linkedin_username: zdravko-kosanovic
 github_username:   zkosanovic
 
 # Build settings
