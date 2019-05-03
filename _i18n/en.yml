@@ -1,0 +1,21 @@
+site:
+  baseurl: "/"
+  description: Blogs · Projects · Tutorials
+  author: Zdravko Kosanovic
+navigation:
+  home: Home
+  about: About me
+  posts: Posts
+main:
+  view-all-posts: View all posts
+footer:
+  made-with: Made with
+  with: with
+  jekyll: Jekyll
+  and: and
+  bootstrap: Bootstrap
+about:
+  title: About me
+  description: Who am I and what I do
+posts:
+  title: Posts

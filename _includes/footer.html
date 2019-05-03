@@ -48,7 +48,11 @@
           </li>
           {% endif %}
         </ul>
-        <p class="copyright text-muted">&copy; {{ 'now' | date: "%Y" }} Made with <i class="fas fa-heart footer-heart"></i> with <a href="https://github.com/jekyll/jekyll">Jekyll</a> and <a href="https://github.com/twbs/bootstrap">Bootstrap</a></p>
+        <p class="copyright text-muted">
+          &copy; {{ 'now' | date: "%Y" }} {% t footer.made-with %} <i class="fas fa-heart footer-heart"></i> {% t footer.with %}
+          <a href="https://github.com/jekyll/jekyll">{% t footer.jekyll %}</a> {% t footer.and %}
+          <a href="https://github.com/twbs/bootstrap">{% t footer.bootstrap %}</a>
+        </p>
       </div>
     </div>
   </div>
