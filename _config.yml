@@ -1,7 +1,10 @@
 title:             zdravko.dev
 email:             zdravkokg@mail.ru
+description:       Blog · Projects · Tutorials
+author:            Zdravko Kosanovic
+baseurl:           "/"
 url:               "https://zkosanovic.github.io"
-baseurl:           ""
+
 # Social Profiles
 linkedin_username: zdravko-kosanovic
 github_username:   zkosanovic
@@ -13,8 +16,3 @@ paginate_path:     "/posts/:num/"
 plugins:
   - jekyll-feed
   - jekyll-paginate
-  - jekyll-multiple-languages-plugin
-
-# Multi language support
-languages: ["en", "sr"]
-exclude_from_localizations: ["assets", "CNAME", "img"]
