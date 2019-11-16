@@ -1,6 +1,12 @@
 @import "variables.scss";
 @import "bootstrap-overrides.scss";
 
+#navbarResponsive {
+  > .navbar-nav {
+    margin: auto;
+  }
+}
+
 .copyright {
   > .fas {
     color: $gray-900;
