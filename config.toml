@@ -1,13 +1,16 @@
 baseURL = "https://zkosanovic.github.io"
 title = "Zdravko's Page"
 languageCode = "en-us"
-theme = "devise"
+theme = ["devise", "plausible-hugo"]
 relativeURLs = true
 canonifyURLs = true
 enableEmoji = true
-googleAnalytics = ""
 enableRobotsTXT = true
 copyright = "zdravko.dev &copy; 2022."
+
+[params.plausible]
+  enable = true
+  domain = "zdravko.dev"
 
 # Main menu items
 # [menu]
