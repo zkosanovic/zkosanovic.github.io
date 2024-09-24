@@ -6,7 +6,7 @@ relativeURLs = true
 canonifyURLs = true
 enableEmoji = true
 enableRobotsTXT = true
-copyright = "zdravko.dev &copy; 2023."
+copyright = "zdravko.dev &copy; 2024."
 
 [params.plausible]
   enable = true
