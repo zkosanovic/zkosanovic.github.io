@@ -1,0 +1,16 @@
+// The theme hard-codes #content's min-height as calc(100vh - 105px), a
+// magic number tuned for the original short footer. It doesn't account for
+// footer content of varying height, causing the page to overflow (and
+// scroll) whenever the footer grows taller than that assumption. Replace it
+// with a flexbox sticky-footer layout instead, which stays correct
+// regardless of footer height.
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+#content {
+  min-height: 0;
+  flex: 1 0 auto;
+}
