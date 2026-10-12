@@ -1,3 +1,3 @@
 ---
-title: Zdravko's Page
+title: zdravko.dev | Zdravko Kosanovic
 ---
